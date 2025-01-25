@@ -15,7 +15,7 @@ This project aims to predict the price of diamonds using various machine learnin
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/diamond-price-prediction.git
+    git clone https://github.com/amolmhr/diamond-price-prediction.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -28,17 +28,14 @@ This project aims to predict the price of diamonds using various machine learnin
 
 ## Usage
 
-1. Preprocess the data:
+
+1. Train the model:
     ```sh
-    python preprocess.py
+    python training_pipeline.py
     ```
-2. Train the model:
+2. Make predictions:
     ```sh
-    python train.py
-    ```
-3. Make predictions:
-    ```sh
-    python predict.py
+    python prediction_pipeline.py
     ```
 
 ## Dataset
